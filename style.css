@@ -1,0 +1,96 @@
+
+header{
+    background-color: #8103FF;
+}
+body{
+    background-image: linear-gradient(Blue,#4BFF03,yellow, yellow);
+    display: flex;
+    flex-direction: column;
+}
+.Logo{
+    float: left;
+}
+
+h1{
+   text-align: center;
+    color: red;
+}
+h2{
+    color: rgb(5, 248, 240);
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+
+nav a{
+    color: red;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 10px;
+    background-color: black;
+    margin-left: 30px;
+}
+
+
+table{
+    background-color: rgb(255, 0, 34);
+}
+
+
+.Info{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.Video{
+    display: block;
+}
+
+.Text{
+    display: block;
+  width: 540px;
+  border:3px solid wheat;
+  border-radius: 15px;
+  background-color: wheat;
+  margin-right: 40px;
+}
+h2{
+    background-color: #8103FF;
+    padding: 10px;
+}
+.Info img:hover{
+    transform: scale(1.1);
+    transition: .5s ease-in;
+}
+
+footer{
+    background-color: red;
+
+}
+
+.footer-logo{
+    float:left;
+}
+.right-text{
+    display: block;
+    float: right;
+    margin: 15px;
+    padding: 10px;
+}
+footer p{
+    display: block;
+    float:left;
+    margin-left:50px;
+}
